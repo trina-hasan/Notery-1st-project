@@ -1,0 +1,185 @@
+/* common start */
+body{
+	margin:0; 
+	padding:0;
+
+}
+/* common end */
+
+/*header start*/
+header{
+	padding:20px 0;
+	
+
+}
+.container {
+	margin:0 auto;
+	width: 80%;
+	overflow:hidden;
+	
+}
+/*logo*/
+
+.logo {
+	width: 	17%;
+	float: left;
+
+}
+.logo a{
+	display: block;
+
+}
+.logo a img{
+	width:100%;
+
+}
+/*logo end*/
+
+.menu {
+	margin-top:8px;
+	width:77%;
+	float:right;
+}
+.menu ul{
+	float:right;
+
+}
+.menu ul li{
+	float:left;
+	list-style: none;
+
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size:16px;
+	font-weight: 700;
+	color:black;
+	text-decoration: none;
+	display:block;
+	padding:0px 15px;
+
+}
+.menu ul li a:hover{
+	color:red;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+
+}
+/*header end*/
+
+/*banner start*/
+.banner {
+	background-image:url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center; 
+	min-height: 400px;
+}
+
+.b_content {
+	margin:100px 0;
+	width:40%;
+	
+}
+.b_content h1{
+	margin:0 0 25px;
+	font-family: sans-serif; 
+	font-size:53px;
+	font-weight:700 ;
+	color:white;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	
+
+}
+.b_p{
+	text-transform: capitalize;
+}
+
+.b_content p{
+	margin:0 0 15px;
+	font-family: sans-serif; 
+	font-size: 16px;
+	font-weight:400;
+	color:white;
+
+}
+
+.b_content button{
+	margin:20px 0 0;
+	width: 250px;
+	height:45px;
+	background-color: red;
+	border:none;
+	font-family: sans-serif; 
+	font-size: 14px;
+	font-weight:700;
+	color:white;
+	text-transform: uppercase;
+	border-radius: 5px;
+	transition: .4s;
+
+}
+.b_content button:hover{
+	background-color: white;
+	color:red;
+}
+
+/*banner end*/
+/*how it works start*/
+.works {
+	padding:100px 0;
+}
+
+.top {
+	margin:0 auto;
+	width:70%;
+	text-align: center;
+}
+.w_h1 {
+	margin:0 0 20px;
+	font-family: sans-serif; 
+	font-size:30px;
+	font-weight:700;
+	color:black;
+	text-transform: uppercase;
+}
+
+.w_p {
+	font-family: sans-serif; 
+	font-size: 16px;
+	font-weight:400;
+	color:#A7A7A7;
+	line-height: 25px;
+	word-spacing: 1px;
+}
+
+.bottom {
+	overflow: hidden;
+}
+.single{
+	margin:0 3%;
+	width:25%;
+	text-align: center;
+	padding: 30px 1.15% 0;
+	float:left;
+}
+.s_img{
+	margin:0 auto;
+	width:50%;
+}
+.s_img img{
+	width:100%;
+
+}
+.s_img p{
+	margin:25px 0;
+	font-family: sans-serif; 
+	font-size:16px;
+	font-weight:700;
+	color:black;
+}
+
+/*how it works end*/
